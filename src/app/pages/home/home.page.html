@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Home</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="logout()">Cerrar sesión</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-content>
+      <p>Nombre: {{ nombre }}</p>
+      <p>Apellido Paterno: {{ apellidoPaterno }}</p>
+      <p>Apellido Materno: {{ apellidoMaterno }}</p>
+      <p>Edad: {{ edad }}</p>
+      <p>RUT: {{ rut }}</p>
+      <p>Teléfono: {{ telefono }}</p>
+      <p>Email: {{ email }}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
